@@ -116,7 +116,7 @@ const Index = () => {
               >
                 <a href="https://forms.gle/b2n71kTgUs7ddHD98" target="_blank" rel="noopener noreferrer">
                   <span className="relative z-10 flex items-center gap-2">
-                    REGISTER NOW
+                    Register Now
                     <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </span>
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-secondary to-accent opacity-0 group-hover:opacity-20 blur transition-opacity" />
