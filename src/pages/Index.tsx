@@ -77,7 +77,9 @@ const Index = () => {
             {/* Presented by */}
             <div className="text-muted-foreground text-lg space-y-2">
               <p className="text-sm uppercase tracking-widest">presented by</p>
-              <img src={redshiftedLogo} alt="Redshifted Logo" className="mx-auto w-48 sm:w-64" />
+              <a href="https://redshifted.ca" target="_blank" rel="noopener noreferrer">
+                <img src={redshiftedLogo} alt="Redshifted Logo" className="mx-auto w-48 sm:w-64" />
+              </a>
             </div>
             
             {/* Info Cards */}
@@ -701,7 +703,9 @@ const Index = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <img src={redshiftedLogo} alt="Redshifted Logo" className="w-64 mb-2" />
+            <a href="https://redshifted.ca" target="_blank" rel="noopener noreferrer">
+              <img src={redshiftedLogo} alt="Redshifted Logo" className="w-64 mb-2" />
+            </a>
             <p className="text-background/80">
               Empowering Ottawa's youth through hands-on STEM education and
               innovation.
