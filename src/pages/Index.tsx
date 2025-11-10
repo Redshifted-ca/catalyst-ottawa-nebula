@@ -86,7 +86,7 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/10 to-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
                 <div className="relative flex items-center gap-3">
                   <Calendar className="w-5 h-5 text-primary" />
-                  <span className="font-medium">November XX 2025</span>
+                  <span className="font-medium">Spring 2026</span>
                 </div>
               </div>
               
