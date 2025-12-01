@@ -7,7 +7,12 @@ import { TerminalText } from "@/components/TerminalText";
 import { useState, useEffect } from "react";
 import { Instagram, Mail, Heart } from "lucide-react";
 import redshiftedLogo from "@/assets/redshifted-logo.png";
-import xyzLogo from "@/assets/xyz-logo-white.png"; // Import the XYZ logo
+import sponsorxyz from "@/assets/sponsor_xyz.png";
+import sponsorctv from "@/assets/sponsor_ctv.png";
+import sponsoryri from "@/assets/sponsor_yri.webp";
+import sponsoraops from "@/assets/sponsor_aops.svg";
+import sponsoronepassword from "@/assets/sponsor_1pass.png";
+import sponsoringenium from "@/assets/sponsor_ingenium.png";
 import GlitchText from '@/components/GlitchText';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import PromoBanner from '@/components/promo';
@@ -448,7 +453,7 @@ const Index = () => {
               </div>
               <div className={`flex flex-wrap justify-center transition-gap duration-300 ${hoveredCategory === 'gold' ? 'gap-6 md:gap-8' : 'gap-6'}`}>
                 {[
-                  { name: "YRI Fellowship", logo: "YRI-logo-white.webp", url: "https://yriscience.com/" },
+                  { name: "YRI Fellowship", logo: sponsoryri, url: "https://yriscience.com/" },
                   { name: "Your logo here", logo: null, url: null },
                   //{ name: "Gold 3", logo: null, url: null },
                 ].map((sponsor, i) => (
@@ -585,18 +590,18 @@ const Index = () => {
               </div>
               <div className={`flex flex-wrap justify-center transition-gap duration-300 ${hoveredCategory === 'community' ? 'gap-6 md:gap-8' : 'gap-4'}`}>
                 {[
-                  { name: ".xyz", logo: xyzLogo, url: "https://gen.xyz" },
-                  { name: "Your logo here", logo: null, url: null },
-                  { name: "Your logo here", logo: null, url: null },
-                  //{ name: "Your logo here", logo: null, url: null },
-                  //{ name: "Your logo here", logo: null, url: null },
+                  { name: ".xyz", logo: sponsorxyz, url: "https://gen.xyz" },
+                  { name: "CTV", logo: sponsorctv, url: "https://ctvnews.ca" },
+                  { name: "AOPS", logo: sponsoraops, url: "https://artofproblemsolving.com/" },
+                  { name: "1Password", logo: sponsoronepassword, url: "https://1password.com/" },
+                  { name: "Ingenium", logo: sponsoringenium, url: "https://ingenium.ca/en/" },
                   //{ name: "Your logo here", logo: null, url: null },
                 ].map((sponsor, i) => (
                   <div
                     key={i}
                     onMouseEnter={() => { setHoveredSponsor(`community-${i}`); setHoveredCategory('community'); }}
                     onMouseLeave={() => { setHoveredSponsor(null); setHoveredCategory(null); }}
-                    className={`group relative rounded-xl border border-primary/20 bg-card/20 backdrop-blur-sm hover:border-primary/40 transition-all hover:scale-105 overflow-hidden ${hoveredSponsor === `community-${i}` ? 'scale-[1.04] shadow-md z-10' : ''}`}
+                    className={`group relative rounded-xl border border-primary/20 bg-card/20 backdrop-blur-sm hover:border-primary/40 transition-all hover:scale-105 overflow-hidden bg-white bg-opacity-20 ${hoveredSponsor === `community-${i}` ? 'scale-[1.04] shadow-md z-10' : ''}`}
                     style={{ flex: '0 1 180px', maxWidth: '18%' }}
                   >
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
