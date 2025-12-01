@@ -10,7 +10,7 @@ import redshiftedLogo from "@/assets/redshifted-logo.png";
 import sponsorxyz from "@/assets/sponsor_xyz.png";
 import sponsorctv from "@/assets/sponsor_ctv.png";
 import sponsoryri from "@/assets/sponsor_yri.webp";
-import sponsoraops from "@/assets/sponsor_aops.svg";
+import sponsoraops from "@/assets/sponsor_aops.png";
 import sponsoronepassword from "@/assets/sponsor_1pass.png";
 import sponsoringenium from "@/assets/sponsor_ingenium.png";
 import GlitchText from '@/components/GlitchText';
@@ -540,7 +540,7 @@ const Index = () => {
             <div className="space-y-6">
               <div className="flex items-center justify-center gap-3">
                 <TrendingUp className="w-6 h-6 text-primary/60" />
-                <h3 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">Bronze Sponsors</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-orange-400">Bronze Sponsors</h3>
                 <TrendingUp className="w-6 h-6 text-primary/60" />
               </div>
               <div className={`flex flex-wrap justify-center transition-gap duration-300 ${hoveredCategory === 'bronze' ? 'gap-6 md:gap-8' : 'gap-4'}`}>
@@ -601,7 +601,7 @@ const Index = () => {
                     key={i}
                     onMouseEnter={() => { setHoveredSponsor(`community-${i}`); setHoveredCategory('community'); }}
                     onMouseLeave={() => { setHoveredSponsor(null); setHoveredCategory(null); }}
-                    className={`group relative rounded-xl border border-primary/20 bg-card/20 backdrop-blur-sm hover:border-primary/40 transition-all hover:scale-105 overflow-hidden bg-white bg-opacity-20 ${hoveredSponsor === `community-${i}` ? 'scale-[1.04] shadow-md z-10' : ''}`}
+                    className={`group relative rounded-2xl border-2 border-gray-400/40 bg-gradient-to-br from-gray-200/20 via-card/40 to-card/40 backdrop-blur-xl hover:border-gray-400/80 transition-all hover:scale-105 overflow-hidden ${hoveredSponsor === `community-${i}` ? 'scale-[1.04] shadow-md z-10' : ''}`}
                     style={{ flex: '0 1 180px', maxWidth: '18%' }}
                   >
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
