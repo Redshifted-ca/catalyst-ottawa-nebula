@@ -121,7 +121,7 @@ const Index = () => {
                 className="relative group text-lg px-10 py-7 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-2xl shadow-primary/50 hover:shadow-primary/70 transition-all hover:scale-105"
                 asChild
               >
-                <a href="https://forms.gle/b2n71kTgUs7ddHD98" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLm3hCJf2-4ZHAs5jqRSSPp4CCoiQ9IzAtQ2BFa9NMC5os8Q/viewform?usp=header" target="_blank" rel="noopener noreferrer">
                   <span className="relative z-10 flex items-center gap-2">
                     Register Now
                     <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
