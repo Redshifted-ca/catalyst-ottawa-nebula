@@ -13,6 +13,7 @@ import sponsoryri from "@/assets/sponsor_yri.webp";
 import sponsoraops from "@/assets/sponsor_aops.png";
 import sponsoronepassword from "@/assets/sponsor_1pass.png";
 import sponsoringenium from "@/assets/sponsor_ingenium.png";
+import sponsorcira from "/cira-canadian-shield_white.png";
 import GlitchText from '@/components/GlitchText';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import PromoBanner from '@/components/promo';
@@ -499,7 +500,7 @@ const Index = () => {
               </div>
               <div className={`flex flex-wrap justify-center transition-gap duration-300 ${hoveredCategory === 'silver' ? 'gap-6 md:gap-8' : 'gap-6'}`}>
                 {[
-                  { name: "Your logo here", logo: null, url: null },
+                  { name: "CIRA", logo: sponsorcira, url: "https://www.cira.ca/en/canadian-shield/" },
                   { name: "Your logo here", logo: null, url: null },
                   //{ name: "Your logo here", logo: null, url: null },
                 ].map((sponsor, i) => (
