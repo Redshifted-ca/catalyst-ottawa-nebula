@@ -16,6 +16,7 @@ import sponsoringenium from "@/assets/sponsor_ingenium.png";
 import GlitchText from '@/components/GlitchText';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import PromoBanner from '@/components/promo';
+import sponsorCIRA from "@/assets/sponsor_cira.png";
 
 
 const Index = () => {
@@ -499,7 +500,7 @@ const Index = () => {
               </div>
               <div className={`flex flex-wrap justify-center transition-gap duration-300 ${hoveredCategory === 'silver' ? 'gap-6 md:gap-8' : 'gap-6'}`}>
                 {[
-                  { name: "Your logo here", logo: null, url: null },
+                  { name: "CIRA", logo: sponsorCIRA, url: "https://www.cira.ca/en/canadian-shield/" },
                   { name: "Your logo here", logo: null, url: null },
                   //{ name: "Your logo here", logo: null, url: null },
                 ].map((sponsor, i) => (
